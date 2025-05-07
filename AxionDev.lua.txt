@@ -1,9 +1,9 @@
 game.StarterGui:SetCore("SendNotification", {
     Title = "Axion Hub Welcome";
-    Text = "Do You Want to Enable 60 FPS Mode?";
-    Icon = "rbxassetid://5009915795";
+    Text = "Plz Join Discord Server";
+    Icon = "rbxassetid://75177922589625";
     Duration = 1e5;
-	Button1 = "No";
+	Button1 = "Yes";
 	Button2 = "No";
 })
 
@@ -2344,7 +2344,7 @@ ImageButton.BorderSizePixel=0
 ImageButton.Position=UDim2.new(0.120833337-0.10, 0, 0.0952890813+0.01, 0)
 ImageButton.Size=UDim2.new(0, 50, 0, 50)
 ImageButton.Draggable=true
-ImageButton.Image="http://www.roblox.com/asset/?id= 114976912682893"
+ImageButton.Image="http://www.roblox.com/asset/?id= 75177922589625"
 UICorner.Parent=ImageButton
 UICorner.CornerRadius=UDim.new(1, 10) 
 ParticleEmitter.Parent=ImageButton
@@ -2391,13 +2391,13 @@ glow.Parent = b
 glow.Size = UDim2.new(1.5, 0, 1.5, 0)
 glow.Position = UDim2.new(-0.25, 0, -0.25, 0)
 glow.BackgroundTransparency = 1
-glow.Image = "rbxassetid://1174835916" -- Hình glow màu xanh dương
+glow.Image = "rbxassetid://75177922589625"
 glow.ImageColor3 = Color3.fromRGB(255, 0, 255)
 glow.ImageTransparency = 0.5
 
 -- Âm thanh khi nhấn nút
 soundClick.Parent = b
-soundClick.SoundId = "rbxassetid://17779566040" -- Thay ID âm thanh click
+soundClick.SoundId = "rbxassetid://17779566040"
 soundClick.Volume = 1
 
 function nHgshEJpoqgHTBEJZ(c)
@@ -6827,7 +6827,7 @@ end)
     Options.ToggleBypassTP:SetValue(false)
 
 
-local ToggleRemove = Tabs.Setting:AddToggle("ToggleRemove", {Title = "Ẩn Dame Đánh Quái",Description = "", Default = true })
+local ToggleRemove = Tabs.Setting:AddToggle("ToggleRemove", {Title = "Remote Damage",Description = "", Default = false })
 ToggleRemove:OnChanged(function(Value)
     _G.RemoveDameText = Value
     end)
